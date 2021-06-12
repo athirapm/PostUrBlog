@@ -1,0 +1,189 @@
+#header .bg-dark {
+    background-color: black!important;
+}
+
+body {
+    background-color: rgb(15, 9, 4);
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.white-text {
+    color: white;
+}
+
+.about-us-text {
+    font-style: italic;
+    font-size: medium;
+    text-align: justify;
+}
+
+.home-div {
+    background-image: url("./assets/bg.jpg") !important;
+    height: 350px;
+}
+
+.navbar.navbar-default {
+    float: right;
+    width: 100%;
+}
+
+.navbar.navbar-default .navbar-brand {
+    color: #e9dfdf;
+}
+
+.navbar.navbar-default .navbar-brand:hover,
+.navbar.navbar-default .navbar-brand:focus {
+    color: #ffd4d4;
+}
+
+.navbar.navbar-default.navbar-brand {
+    color: #ffd4d4;
+}
+
+.navbar.navbar-default .site-name {
+    color: #d39e00;
+    padding-right: 20px;
+}
+
+#about {
+    margin-top: 100px;
+}
+
+#blogs {
+    margin-top: 100px;
+}
+
+#blog-form {
+    margin-top: 100px;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.text-wrap {
+    overflow-wrap: break-word;
+}
+
+.div-item {
+    border: 2px solid;
+    border-style: inset;
+    border-radius: 20px;
+    height: 250px;
+    margin-left: 100px;
+    padding-top: 3px;
+    left: 6%;
+    margin-top: 10px;
+    text-align: center;
+    background: repeating-linear-gradient(45deg, #46131f85, transparent 100px);
+}
+
+input {
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.btn.btn-default {
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn.btn-default:hover {
+    background-color: peru;
+    color: white;
+}
+
+#contact-submit {
+    width: 100%;
+}
+
+.add-blog-img {
+    overflow: hidden !important;
+}
+
+.add-blog-img:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    background: black;
+    height: 45px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: small;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(6, 7, 5);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
